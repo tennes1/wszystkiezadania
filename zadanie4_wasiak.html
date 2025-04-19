@@ -1,0 +1,47 @@
+<!-- Autor: Igor Wasiak, klasa 2f, nr 27 - Data: 2025-04-17 -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadanie 4 – Podłączanie CSS</title>
+</head>
+<body>
+  <h1 align="center">Zadanie 4 – Sposoby podłączania CSS</h1>
+  <table border="1" cellpadding="10">
+    <tr><td>
+      <b>1. Styl liniowy:</b><br>
+      <textarea rows="4" cols="60" readonly>
+<p style="color: red;">Tekst</p>
+      </textarea>
+    </td></tr>
+    <tr><td>
+      <b>2. Styl wewnętrzny:</b><br>
+      <textarea rows="6" cols="60" readonly>
+<style>
+  p { color: green; }
+</style>
+<p>Tekst</p>
+      </textarea>
+    </td></tr>
+    <tr><td>
+      <b>3. Styl zewnętrzny:</b><br>
+      <textarea rows="5" cols="60" readonly>
+<link rel="stylesheet" href="style.css">
+<p class="zielony">Tekst</p>
+      </textarea>
+    </td></tr>
+    <tr><td>
+      <b>4. Importowany:</b><br>
+      <textarea rows="6" cols="60" readonly>
+<style>
+  @import url("style.css");
+</style>
+<p>Tekst</p>
+      </textarea>
+    </td></tr>
+    <tr><td>
+      <b>5. Styl lokalny (w znaczniku &lt;style&gt; w HEAD)</b>
+    </td></tr>
+  </table>
+</body>
+</html>

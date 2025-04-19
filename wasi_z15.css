@@ -1,0 +1,11 @@
+/* Igor Wasiak, 2025-04-17 */
+/* Zadanie 15 – Kolory obliczeniowe */
+
+body {
+  color: rgb(60%, 35%, 80%);
+  font-size: 30pt;
+}
+p {
+  color: #69B15A;
+  font-size: 20pt;
+}

@@ -1,0 +1,10 @@
+/* Igor Wasiak, 2025-04-17 */
+/* Zmiana wielkości czcionek względem długości nazwiska (6 liter) */
+body {
+  font-size: 46mm; /* 40 + 6 */
+  color: blue;
+}
+p {
+  font-size: 36mm; /* 30 + 6 */
+  color: green;
+}

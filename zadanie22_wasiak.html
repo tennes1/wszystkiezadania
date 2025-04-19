@@ -1,0 +1,50 @@
+<!-- Igor Wasiak, klasa 2f, nr 27 – Data: 2025-04-17 -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadanie 22 – Porównanie stylów CSS</title>
+</head>
+<body style="font-family: Arial; font-size: 14pt;">
+  <h1>Porównanie stylów CSS: lokalny, wewnętrzny, zewnętrzny</h1>
+
+  <table border="1" cellpadding="10" style="width: 100%; text-align: left;">
+    <tr style="font-weight: bold; text-align: center;">
+      <td>Rodzaj stylu</td>
+      <td>Opis</td>
+      <td>Przykład</td>
+    </tr>
+
+    <tr>
+      <td>Lokalny (liniowy)</td>
+      <td>Styl wpisany bezpośrednio w znacznik HTML</td>
+      <td><pre>&lt;p style="color: red;"&gt;Tekst&lt;/p&gt;</pre></td>
+    </tr>
+
+    <tr>
+      <td>Wewnętrzny</td>
+      <td>Styl zapisany w sekcji &lt;style&gt; w nagłówku strony</td>
+      <td><pre>
+&lt;style&gt;
+  p { color: green; }
+&lt;/style&gt;
+      </pre></td>
+    </tr>
+
+    <tr>
+      <td>Zewnętrzny</td>
+      <td>Styl zapisany w osobnym pliku .css i podłączony do HTML</td>
+      <td><pre>
+&lt;link rel="stylesheet" href="style.css"&gt;
+      </pre></td>
+    </tr>
+  </table>
+
+  <h2>Zalecenia:</h2>
+  <ul>
+    <li>Do małych zmian: styl lokalny</li>
+    <li>Do większych stron: styl zewnętrzny (modularność i wygoda)</li>
+    <li>Do pojedynczej strony: styl wewnętrzny</li>
+  </ul>
+</body>
+</html>
